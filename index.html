@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Outbound Provider Home - Minimalist v1</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#17cf54",
+                        "background-light": "#f6f8f6",
+                        "background-dark": "#112116",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+<div class="relative flex min-h-screen flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full border-b border-primary/10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-12">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-3xl">landscape</span>
+</div>
+<span class="text-xl font-extrabold tracking-tight text-slate-900 dark:text-slate-100">Horizon Outbound</span>
+</div>
+<nav class="hidden items-center gap-10 md:flex">
+<a class="text-sm font-semibold text-slate-900 dark:text-slate-100 hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-sm font-semibold text-slate-600 dark:text-slate-400 hover:text-primary transition-colors" href="#">Blog</a>
+<button class="rounded-full bg-primary px-6 py-2.5 text-sm font-bold text-background-dark shadow-lg shadow-primary/20 hover:scale-105 transition-transform active:scale-95">
+                        Contact Us
+                    </button>
+</nav>
+<button class="flex items-center md:hidden text-slate-900 dark:text-slate-100">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="relative w-full px-6 py-6 lg:px-12 lg:py-10">
+<div class="relative h-[70vh] w-full overflow-hidden rounded-xl bg-slate-200 dark:bg-slate-800">
+<div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/20 to-transparent z-10"></div>
+<div class="absolute inset-0 flex flex-col items-center justify-center px-4 text-center z-20">
+<span class="mb-4 inline-block rounded-full bg-primary/20 px-4 py-1 text-xs font-bold uppercase tracking-widest text-primary backdrop-blur-sm">Premium Outbound Experiences</span>
+<h1 class="max-w-4xl text-4xl font-extrabold leading-tight text-white md:text-6xl lg:text-7xl">
+                            Elevate Your Team's <br/> <span class="text-primary italic">Horizon</span>
+</h1>
+<p class="mt-6 max-w-2xl text-lg text-slate-200 md:text-xl">
+                            Immersive outbound experiences designed for professional growth, deeper connection, and mental clarity.
+                        </p>
+<div class="mt-10 flex flex-col items-center gap-4 sm:flex-row">
+<button class="group flex items-center gap-2 rounded-full bg-primary px-8 py-4 text-sm font-bold text-background-dark transition-all hover:bg-white">
+                                Explore Our Story
+                                <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="h-full w-full bg-cover bg-center" data-alt="A group of people trekking on a misty mountain trail at sunrise" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDaiXvwRFF7pE__Bi9gY846QJrkCpOX-q9Bz6Rd2wWEKUeJzs5Vf34AMHS83cLX-58GvCh0vP9q0ZJD2ztPxhL9ttTQZX4uvhtF6pjEgMJRwWTmk5-PiZ7bJngkC0cVKHYZ78JRHvolP7ErZUZ5rn4iy3-XSR4knectINGA7DzOo4NA1UKMF7y3C__xW_HW6czA2n8928EudW-HYXdJBYbv050utUwP0-lv5j2GgTymHJKfkHsVQ68Lw8XqU7y5rUhnl25bS6poAhrq");'></div>
+</div>
+</section>
+<!-- Editor's Choice -->
+<section class="mx-auto max-w-7xl px-6 py-16 lg:px-12">
+<div class="mb-12 flex items-end justify-between border-b border-primary/10 pb-6">
+<div>
+<h2 class="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Editor's Choice</h2>
+<p class="mt-2 text-slate-600 dark:text-slate-400">Hand-picked insights on leadership and outdoor synergy.</p>
+</div>
+<a class="group flex items-center gap-2 text-sm font-bold text-primary" href="#">
+                        View All Articles
+                        <span class="material-symbols-outlined text-xs group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-center">
+<div class="group relative overflow-hidden rounded-xl bg-slate-200 dark:bg-slate-800 lg:col-span-7">
+<div class="aspect-[16/9] w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Professional team collaborating in a modern natural wood-themed workspace" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAC9vwGevLuYJyA8dVXX5mvQCKOxJb9gRB1lG_s9IEg0R6NDBGJrw89PznrUoyq1EuXLHU9nAFdxSJjdBgb0gzov0a9NIQ0Btl5AaY33PWc9qAg3kjDf_xzf5MEfGJ4vZ0w4eEGOts5NsdBSDyE5Hltrg0xXGJ6Tx0grqSoyiChm2eMphOoF3ED5N3-fkFHxtyBfcVG35EIAQUTBmAzbJyNNW8fwEqdr0DkiAGLn7QsyIHIN87bFUAojNg14GgOaXo06Q_AQ7N2PMds");'></div>
+<div class="absolute bottom-4 left-4 z-20">
+<span class="rounded bg-primary px-2 py-1 text-[10px] font-bold uppercase text-background-dark">Featured</span>
+</div>
+</div>
+<div class="lg:col-span-5">
+<span class="text-xs font-bold uppercase tracking-widest text-primary">Leadership • 8 min read</span>
+<h3 class="mt-4 text-3xl font-bold leading-tight text-slate-900 dark:text-slate-100 md:text-4xl">
+                            The Art of Modern Team Building: Silence &amp; Nature
+                        </h3>
+<p class="mt-6 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                            Discover why silence and the untamed nature are the ultimate catalysts for effective leadership and deep collaboration. In an era of digital noise, we explore the power of disconnect.
+                        </p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-10 w-10 overflow-hidden rounded-full bg-slate-300 dark:bg-slate-700">
+<div class="h-full w-full bg-cover" data-alt="Portrait of a professional writer and consultant" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAVnqJLK7r2HAnWWPbuPZdngPbZg6XswYqVoR9soi5BX5ml9fFL393cFzypOSILjpriD9puyhbbzcdU2lFbIeN3zoJEcMyYTfQNVRd3VlB4CTmRdacFKy9peo5o66E2_97ChdrpOLtInEU8oAs5Iwjg6H6jE6jl5i48akYDINrBTm_niTJHbAt-EYDLkQZGZPgq1CUSURYQAtrh4Ha6cU1LsAl-9AuFHld1F1hPN6-sCwUAm-0cLNK9Hbc_icJl2WV2Jn0gn18NyLju");'></div>
+</div>
+<div>
+<p class="text-sm font-bold text-slate-900 dark:text-slate-100">Julian Thorne</p>
+<p class="text-xs text-slate-500">Chief Strategy Officer</p>
+</div>
+</div>
+<button class="mt-10 flex w-full items-center justify-center gap-2 rounded-lg bg-primary/10 py-4 text-sm font-bold text-primary transition-all hover:bg-primary hover:text-background-dark lg:w-max lg:px-10">
+                            Read Full Article
+                        </button>
+</div>
+</div>
+</section>
+<!-- Latest Insights -->
+<section class="bg-primary/5 py-20">
+<div class="mx-auto max-w-7xl px-6 lg:px-12">
+<div class="mb-12">
+<h3 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">Latest Insights</h3>
+<div class="mt-2 h-1 w-12 bg-primary"></div>
+</div>
+<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+<!-- Post 1 -->
+<div class="group flex flex-col overflow-hidden bg-transparent">
+<div class="relative aspect-video w-full overflow-hidden rounded-lg">
+<div class="h-full w-full bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Vibrant scenic mountain landscape reflected in a lake" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAmKTNTNXdtwOz2yHj4HQlrIT4m1qtVk-dSEh2x8ibjWwiyqARJ6p1oqc8fXbAil5zfA1LorJoWl-zVpcHMC5QaXtHY-Odn0uFHQkTV-ddBRNy-Zy-s1Qkk_4LaRcZl-NY4OJZp8_AplBV_Lv20FL9Y7HJ_e783QgDBUrAORTRu1nmtHLae6aYWNBGQd2OZF87IsW7mpnQYydHRT55IPYCBBq6g1Cy2wIEEBqm2HK84Fd9cnl-sIRIrYbdCZeZ9Ky3EAHSxh7XbBBp7");'></div>
+</div>
+<div class="mt-6">
+<p class="text-xs font-bold uppercase text-primary">Adventure • 5 min</p>
+<h4 class="mt-2 text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors">Finding Resilience in the Alps</h4>
+<p class="mt-3 line-clamp-2 text-slate-600 dark:text-slate-400">How challenging environments forge mental fortitude and trust among team members.</p>
+<a class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-slate-900 dark:text-slate-100" href="#">
+                                    Read more <span class="material-symbols-outlined text-xs">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Post 2 -->
+<div class="group flex flex-col overflow-hidden bg-transparent">
+<div class="relative aspect-video w-full overflow-hidden rounded-lg">
+<div class="h-full w-full bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Peaceful yoga and mindfulness session in a forest clearing" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB_6tm177OleaMguPDXfEwTU8wb8l9pVeG8k2hNbUge48OJmTcRg0EDWH-3eHnuiq-Q6dzhUC3PbBYHqL4GIkEXnYIiXo8ABOCaT37bADrZIvmGHHUrl2kLsna3smA2p2UClz8Og1Dl5279kbVItlIa-_6jfn_ticd7-D8obMPmKj_inv-U_9sHcSbwzj_CI8V23NJH_lk1iQjeS50ULA3y0Sv7NgQcdypjHge88PKErKecnObTELX3QoM-jc_naZfZxzVxMj7QKkRB");'></div>
+</div>
+<div class="mt-6">
+<p class="text-xs font-bold uppercase text-primary">Mindfulness • 12 min</p>
+<h4 class="mt-2 text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors">The Mindful Corporate Retreat</h4>
+<p class="mt-3 line-clamp-2 text-slate-600 dark:text-slate-400">Reimagining the weekend getaway as a tool for corporate mental wellness.</p>
+<a class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-slate-900 dark:text-slate-100" href="#">
+                                    Read more <span class="material-symbols-outlined text-xs">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Post 3 -->
+<div class="group flex flex-col overflow-hidden bg-transparent">
+<div class="relative aspect-video w-full overflow-hidden rounded-lg">
+<div class="h-full w-full bg-cover transition-transform duration-500 group-hover:scale-110" data-alt="Close up of two people shaking hands in a bright outdoor setting" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAVbrKW2Cm0hHaoGpQMP_lJ0hSF1w5l8Gw-OqgGWmjsuElSjomW-HGUAmYiGd1VHqURWx6bS1gW_8h0ywBZsLeAqpMDeoKienLMl9KcBXbNO5x2AY02h3bX02FqnXrq0LgiNSokp1kx_-As-8hzIxy1ojKoznsCHPYgSnfY2NaWAAXZKgx6XTngrjjs3iHHTzbSjqXk4BQWQFaf68bS2XOWqzGgwPOjYLSGinIEi4H6XerNG2f7zSg-br-huKMzIpE-_3N_6NupIYrz");'></div>
+</div>
+<div class="mt-6">
+<p class="text-xs font-bold uppercase text-primary">Strategy • 7 min</p>
+<h4 class="mt-2 text-xl font-bold text-slate-900 dark:text-slate-100 group-hover:text-primary transition-colors">Building Trust through Vulnerability</h4>
+<p class="mt-3 line-clamp-2 text-slate-600 dark:text-slate-400">Why the most successful teams are those that aren't afraid to fail together outdoors.</p>
+<a class="mt-4 inline-flex items-center gap-1 text-sm font-bold text-slate-900 dark:text-slate-100" href="#">
+                                    Read more <span class="material-symbols-outlined text-xs">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-primary/10 bg-background-light py-12 dark:bg-background-dark">
+<div class="mx-auto max-w-7xl px-6 lg:px-12">
+<div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+<div class="flex items-center gap-3">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-2xl">landscape</span>
+</div>
+<span class="text-lg font-bold tracking-tight text-slate-900 dark:text-slate-100">Horizon Outbound</span>
+</div>
+<div class="flex gap-8">
+<a class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-primary" href="#">Home</a>
+<a class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-primary" href="#">Blog</a>
+<a class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-primary" href="#">Privacy</a>
+<a class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-primary" href="#">Contact</a>
+</div>
+<div class="flex gap-4">
+<div class="flex h-8 w-8 items-center justify-center rounded-full border border-primary/20 text-slate-600 dark:text-slate-400">
+<span class="material-symbols-outlined text-lg">share</span>
+</div>
+<div class="flex h-8 w-8 items-center justify-center rounded-full border border-primary/20 text-slate-600 dark:text-slate-400">
+<span class="material-symbols-outlined text-lg">public</span>
+</div>
+</div>
+</div>
+<div class="mt-12 text-center text-xs text-slate-500">
+                    © 2024 Horizon Outbound. All rights reserved. Minimalist Series v1.
+                </div>
+</div>
+</footer>
+</div>
+</body></html>
